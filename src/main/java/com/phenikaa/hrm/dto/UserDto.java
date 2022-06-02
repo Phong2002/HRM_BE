@@ -39,6 +39,7 @@ public class UserDto implements Serializable {
         user.setClassify(classify);
         user.setUsername(username);
         user.setPassword(password);
+        user.setRole("Employee");
         return user;
     }
 
